@@ -9,7 +9,7 @@
       return (
 
         
-            <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
+            <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} className='border p-2 rounded cursor-pointer'>
             Toggle Theme
             </button>
 
