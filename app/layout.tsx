@@ -22,11 +22,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "OHAKWECHI | Software Engineer",
     description: "Building Bloom, Dreambox Academy, and scalable design systems.",
-    url: "https://your-portfolio-url.vercel.app",
+    url: "https://ohakwechi-portfolio.vercel.app/",
     siteName: "OHAKWECHI Portfolio",
     images: [
       {
-        url: "https://your-portfolio-url.vercel.app/og-image.png", // Point to a screenshot of your site
+        url: "https://ohakwechi-portfolio.vercel.app/og-image.png", // Point to a screenshot of your site
         width: 1200,
         height: 630,
         alt: "OHAKWECHI - Software Engineering Portfolio",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "OHAKWECHI | Software Engineer",
     description: "Building Bloom, Dreambox Academy, and scalable design systems.",
-    images: ["https://your-portfolio-url.vercel.app/og-image.png"], 
+    images: ["ohakwechi-portfolio.vercel.app/og-image.png"], 
   },
 };
 
