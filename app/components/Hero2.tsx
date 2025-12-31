@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Text Side */}
       <div className="flex-1 order-2 md:order-1 text-center md:text-left">
         <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-4 tracking-tight">
-          Hi, I&apos;m <span className="text-blue-500">[Your Name]</span>
+          Hi, I&apos;m <span className="text-blue-500">CHIGOZIE OHAKWE</span>
         </h1>
         <p className="text-lg md:text-xl text-slate-400 mb-8 max-w-lg">
           A Software Engineer focused on building high-performance web apps, 
@@ -38,8 +38,8 @@ export default function Hero() {
           
           <div className="relative h-48 w-48 md:h-64 md:w-64 overflow-hidden rounded-full border-4 border-slate-900 shadow-2xl">
             <Image 
-              src="/my-photo.jpg" // Make sure to name your photo this and put it in the /public folder
-              alt="[Your Name] Profile Photo"
+              src="/my-photo.jpg" 
+              alt="ohakwechi Profile Photo"
               fill
               className="object-cover"
               priority
