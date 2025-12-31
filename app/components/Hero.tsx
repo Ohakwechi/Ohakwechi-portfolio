@@ -44,6 +44,7 @@ const Hero = () => {
           <span className='underline'>Download CV.</span>
         </div>
       </div>
+      {/* <Hero2 /> */}
     </div>
   )
 }
