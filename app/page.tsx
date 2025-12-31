@@ -1,19 +1,20 @@
-import { Github, Twitter, Mail } from "lucide-react";
-import ProjectSection from "./components/ProjectSection";
-import Hero2 from "./components/Hero2";                     
+import Navbar from '@/app/components/Navbar';
+import Hero from '@/app/components/Hero';
+import ProjectGrid from '@/app/components/ProjectGrid';
+import About from '@/app/components/About';
+import Contact from '@/app/components/Contact';
 
-export default function Portfolio() {
+export default function Home() {
   return (
-    <main className="min-h-screen bg-slate-950 text-slate-200 p-8 md:p-24">
-      {/* Hero Section */}
-     
-
-      {/* Projects Section */}
-      <section className="max-w-2xl mx-auto">
-       
-      </section>
-      <Hero2 />
-      <ProjectSection />
+    <main className="min-h-screen bg-slate-950">
+      <Navbar />
+      <Hero />
+      <ProjectGrid />
+      <About />
+      <Contact />
+      <footer className="py-10 text-center border-t border-slate-900 text-slate-600 text-sm">
+        &copy; {new Date().getFullYear()} Chigozie Ohakwechi. Built with Next.js & Tailwind.
+      </footer>
     </main>
   );
 }
